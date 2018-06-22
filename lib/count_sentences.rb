@@ -20,7 +20,7 @@ class String
     # binding.pry 
     new_value = 0 
     split_self.each do |array|
-      if !array == ""
+      if !(array == "")
         new_value += 1 
       end 
     end 
