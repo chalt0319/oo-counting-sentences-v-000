@@ -17,6 +17,7 @@ class String
   def count_sentences
       
     split_self = self.split("." || "!" || "?")
+    binding.pry 
     new_value = 0 
     split_self.each do |array|
       if array == ""
@@ -28,4 +29,5 @@ class String
     end 
     new_value
   end
+  
 end
