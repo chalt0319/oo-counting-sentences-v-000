@@ -19,7 +19,7 @@ class String
     split_self = self.split("." || "!" || "?")
     new_value = 0 
     split_self.each do |array|
-      if array == ""
+      if array == "" || " "
         value = 0 
       else 
         value = 1 
