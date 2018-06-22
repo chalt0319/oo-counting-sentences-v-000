@@ -26,5 +26,4 @@ class String
     end 
     new_value
   end
-  
 end
