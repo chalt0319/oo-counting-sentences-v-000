@@ -15,9 +15,21 @@ class String
   end
 
   def count_sentences
+      
     split_self = self.split("." || "!" || "?")
-    num = split_self.length + 1 
-    num
+    new_value = 0 
+    split_self.each do |array|
+      if array == ""
+        value = 0 
+      else 
+        value = 1 
+        new_value += value 
+      end 
+    end 
+    new_value
+    
+    # num = split_self.length + 1 
+    # num
     # binding.pry 
   end
 end
