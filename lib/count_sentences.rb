@@ -18,6 +18,6 @@ class String
     split_self = self.split("." || "!" || "?")
     num = split_self.length + 1 
     num
-    binding.pry 
+    # binding.pry 
   end
 end
