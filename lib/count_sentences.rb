@@ -27,9 +27,5 @@ class String
       end 
     end 
     new_value
-    
-    # num = split_self.length + 1 
-    # num
-    # binding.pry 
   end
 end
