@@ -21,10 +21,7 @@ class String
     new_value = 0 
     split_self.each do |array|
       if !(array == "")
-        value = 0 
-      else 
-        value = 1 
-        new_value += value 
+        new_value += 1 
       end 
     end 
     new_value
